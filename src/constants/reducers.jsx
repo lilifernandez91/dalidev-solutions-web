@@ -1,0 +1,5 @@
+export const REDUCERS = {
+    UPDATE_USER: 'UPDATE_USER',
+    UPDATE_APP: 'UPDATE_APP',
+    UPDATE_DATA: 'UPDATE_DATA',
+};

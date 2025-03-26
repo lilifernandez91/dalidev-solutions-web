@@ -1,0 +1,9 @@
+# 📄 General Directives for All User Agents
+User-agent: *
+
+# ✅ Allow Direct Access to Critical Paths
+Allow: /api/
+Allow: /public/
+
+# 📊 Sitemap Locations
+Sitemap: https://defensamadridista.com/api/sitemap-index.xml
