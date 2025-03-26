@@ -24,7 +24,10 @@ import LogoImage from './LogoImage';
 
 const navItems = [
     { label: 'Inicio', path: RUTAS.INICIO },
-    { label: 'Palmarés', path: RUTAS.PALMARES_FUTBOL },
+    { label: 'Quiénes somos', path: RUTAS.QUIENES_SOMOS },
+    { label: 'Nuestros servicios', path: RUTAS.SERVICIOS },
+    { label: 'Blog', path: RUTAS.NOTICIAS },
+    { label: 'Contacto', path: RUTAS.CONTACTO },
 ];
 
 const Navigation = () => {
