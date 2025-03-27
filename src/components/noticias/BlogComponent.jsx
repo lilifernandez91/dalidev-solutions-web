@@ -3,7 +3,7 @@ import { Box, Typography, Paper } from '@mui/material';
 import NoticiaAuthor from './NoticiaAuthor';
 import ArticleContent from './ArticleContent';
 
-const NoticiaComponent = ({ noticia }) => {
+const BlogComponent = ({ noticia }) => {
     if (!noticia) return null;
 
     const { title, description, bannerImage } = noticia;
@@ -53,4 +53,7 @@ const NoticiaComponent = ({ noticia }) => {
     );
 };
 
-export default NoticiaComponent;
+export default BlogComponent;
+
+
+

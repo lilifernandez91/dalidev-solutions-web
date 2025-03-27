@@ -4,57 +4,49 @@ import Head from 'next/head';
 
 const descriptions = {
     [PAGES.INICIO]:
-        '⚪ ¡Bienvenido a Defensa Madridista! Noticias exclusivas, análisis y la verdad sobre el Real Madrid. Vive la pasión blanca como nunca antes. ¡Hala Madrid!',
-    [PAGES.PALMARES_FUTBOL]:
-        '🏆 Conoce todos los títulos y trofeos ganados por el Real Madrid. Un palmarés histórico, lleno de gloria y grandeza. ¡La leyenda continúa!',
-    [PAGES.TERMINOS_Y_CONDICIONES]:
-        'Lee nuestros términos y condiciones de Defensa Madridista. Transparencia y protección para todos los madridistas que visitan nuestro sitio.',
-    [PAGES.POLITICAS_DE_PRIVACIDAD]:
-        'Descubre cómo protegemos tus datos en Defensa Madridista. Tu privacidad es nuestra prioridad mientras disfrutas de las últimas noticias del Real Madrid.',
+        'Dalidev Solutions es una empresa de desarrollo de software que ofrece soluciones personalizadas para empresas de cualquier sector.',
+    [PAGES.QUIENES_SOMOS]:
+        'Dalidev Solutions es una empresa de desarrollo de software que ofrece soluciones personalizadas para empresas de cualquier sector.',
+    [PAGES.SERVICIOS]:
+        'Dalidev Solutions es una empresa de desarrollo de software que ofrece soluciones personalizadas para empresas de cualquier sector.',
+    [PAGES.BLOG]:
+        'Dalidev Solutions es una empresa de desarrollo de software que ofrece soluciones personalizadas para empresas de cualquier sector.',
     [PAGES.CONTACTO]:
-        '📞 Contacta con Defensa Madridista para consultas, colaboraciones o sugerencias. Estamos aquí para compartir la pasión por el Real Madrid.',
-    [PAGES.NOTICIAS]:
-        '⚽ Las últimas noticias del Real Madrid. Fichajes, rumores y análisis desde un enfoque madridista. ¡No te pierdas nada de tu equipo!',
-    [PAGES.OPINION]:
-        '💬 Opiniones madridistas sin filtros. Análisis, debates y la verdad sobre el Real Madrid contada por y para madridistas.',
-    [PAGES.ANALISIS]:
-        '🔍 Análisis tácticos y estadísticas del Real Madrid. Desglosamos cada partido, jugador y movimiento con la mirada blanca que buscas.',
-    [PAGES.FICHAJES]:
-        '🔥 Fichajes del Real Madrid: Rumores, negociaciones y anuncios oficiales. Descubre quién puede ser el próximo galáctico.',
-    [PAGES.HISTORIA]:
-        '🏅 La historia del Real Madrid: Desde sus orígenes hasta la actualidad. Conoce la grandeza y las leyendas que forjaron al club más grande.',
+        'Dalidev Solutions es una empresa de desarrollo de software que ofrece soluciones personalizadas para empresas de cualquier sector.',
+    [PAGES.POLITICAS_DE_PRIVACIDAD]:
+        'Dalidev Solutions es una empresa de desarrollo de software que ofrece soluciones personalizadas para empresas de cualquier sector.',
+    [PAGES.TERMINOS_Y_CONDICIONES]:
+        'Dalidev Solutions es una empresa de desarrollo de software que ofrece soluciones personalizadas para empresas de cualquier sector.',
 };
 
 const titles = {
-    [PAGES.INICIO]: 'Defensa Madridista ⚪ Noticias y Opinión del Real Madrid',
-    [PAGES.PALMARES_FUTBOL]: 'Palmáres del Real Madrid | Trofeos y Títulos Blancos 🏆',
-    [PAGES.TERMINOS_Y_CONDICIONES]: 'Términos y Condiciones | Defensa Madridista',
-    [PAGES.POLITICAS_DE_PRIVACIDAD]: 'Política de Privacidad | Defensa Madridista',
-    [PAGES.CONTACTO]: 'Contacto | Defensa Madridista',
-    [PAGES.NOTICIAS]: 'Noticias del Real Madrid ⚽ | Defensa Madridista',
-    [PAGES.OPINION]: 'Opinión Madridista | Defensa Madridista 💬',
-    [PAGES.ANALISIS]: 'Análisis y Estadísticas del Real Madrid 🔍',
-    [PAGES.FICHAJES]: 'Fichajes del Real Madrid 🔥 | Rumores y Confirmaciones',
-    [PAGES.HISTORIA]: 'Historia del Real Madrid | Leyendas Blancas 🏅',
+    [PAGES.INICIO]: 'Dalidev Solutions, agencia de desarrollo de software',
+    [PAGES.QUIENES_SOMOS]: '¿Quiénes somos? Descubre quiénes somos y qué hacemos',
+    [PAGES.SERVICIOS]: 'Nuestros servicios. Desarrollo web, automatización y estrategia digital',
+    [PAGES.BLOG]: 'Blog de Dalidev Solutions. Noticias, tips y novedades del mundo digital.',
+    [PAGES.CONTACTO]: 'Contacto. Ponte en contacto con nosotros para cualquier consulta o solicitud.',
+    [PAGES.POLITICAS_DE_PRIVACIDAD]: 'Política de privacidad. Descubre cómo protegemos tus datos personales.',
+    [PAGES.TERMINOS_Y_CONDICIONES]: 'Términos y condiciones. Descubre cómo funcionamos y qué esperamos de ti.',
 };
 
 const urls = {
-    [PAGES.INICIO]: '',
-    [PAGES.PALMARES_FUTBOL]: RUTAS.PALMARES_FUTBOL,
-    [PAGES.TERMINOS_Y_CONDICIONES]: RUTAS.TERMINOS_Y_CONDICIONES,
-    [PAGES.POLITICAS_DE_PRIVACIDAD]: RUTAS.POLITICAS_DE_PRIVACIDAD,
+    [PAGES.INICIO]: RUTAS.INICIO,
+    [PAGES.QUIENES_SOMOS]: RUTAS.QUIENES_SOMOS,
+    [PAGES.SERVICIOS]: RUTAS.SERVICIOS,
+    [PAGES.BLOG]: RUTAS.BLOG,
     [PAGES.CONTACTO]: RUTAS.CONTACTO,
-    [PAGES.NOTICIAS]: RUTAS.NOTICIAS,
-    [PAGES.OPINION]: RUTAS.OPINION,
-    [PAGES.ANALISIS]: RUTAS.ANALISIS,
-    [PAGES.FICHAJES]: RUTAS.FICHAJES,
-    [PAGES.HISTORIA]: RUTAS.HISTORIA,
+    [PAGES.POLITICAS_DE_PRIVACIDAD]: RUTAS.POLITICAS_DE_PRIVACIDAD,
+    [PAGES.TERMINOS_Y_CONDICIONES]: RUTAS.TERMINOS_Y_CONDICIONES,
 };
 
 const images = {
-    [PAGES.INICIO]: '/images/logo-defensa-madridista.png',
-    [PAGES.NOTICIAS]: '/images/noticias-real-madrid.jpg',
-    [PAGES.FICHAJES]: '/images/fichajes-real-madrid.jpg',
+    [PAGES.INICIO]: `${process.env.NEXT_PUBLIC_IMAGES}/dalidev-solutions/banner_image_1.png`,
+    [PAGES.QUIENES_SOMOS]: `${process.env.NEXT_PUBLIC_IMAGES}/dalidev-solutions/banner_image_1.png`,
+    [PAGES.SERVICIOS]: `${process.env.NEXT_PUBLIC_IMAGES}/dalidev-solutions/banner_image_1.png`,
+    [PAGES.BLOG]: `${process.env.NEXT_PUBLIC_IMAGES}/dalidev-solutions/banner_image_1.png`,
+    [PAGES.CONTACTO]: `${process.env.NEXT_PUBLIC_IMAGES}/dalidev-solutions/banner_image_1.png`,
+    [PAGES.POLITICAS_DE_PRIVACIDAD]: `${process.env.NEXT_PUBLIC_IMAGES}/dalidev-solutions/banner_image_1.png`,
+    [PAGES.TERMINOS_Y_CONDICIONES]: `${process.env.NEXT_PUBLIC_IMAGES}/dalidev-solutions/banner_image_1.png`,
 };
 
 const siteData = {

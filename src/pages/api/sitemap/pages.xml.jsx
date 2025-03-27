@@ -27,7 +27,7 @@ export default function handler(req, res) {
             .map(
                 (page) => `
         <url>
-            <loc>https://defensamadridista.com${page.loc}</loc>
+            <loc>https://dalidevsolutions.com${page.loc}</loc>
             <lastmod>${page.lastmod}</lastmod>
             <changefreq>${page.changeFreq}</changefreq>
             <priority>${page.priority}</priority>

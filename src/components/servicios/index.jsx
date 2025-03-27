@@ -1,11 +1,13 @@
-import { Box, Typography } from "@mui/material";
-
+import { Box } from "@mui/material";
+import HeaderComponent from "../home/HeaderComponent";
+import ButtonHomeComponent from "../home/ButtonHomeComponent";
+import CardServicesComponent from "./CardServicesComponent";
 const ServiciosComponent = () => {
     return (
-        <Box sx={{ padding: 2 }} className="container">
-            <Typography variant="h1" gutterBottom>
-                Servicios
-            </Typography>
+        <Box sx={{ minHeight: 'calc(100vh - 235px)', display: 'flex', flexDirection: 'column' }}>
+            <HeaderComponent />
+            <ButtonHomeComponent />
+            <CardServicesComponent />
         </Box>
     );
 }

@@ -20,7 +20,7 @@ const TerminosYCondicionesPage = () => {
                 </Typography>
 
                 <Typography variant="body1" paragraph>
-                    Bienvenido a Defensa Madridista. Al acceder y utilizar nuestro sitio web, aceptas los
+                    Bienvenido a Dalidev Solutions. Al acceder y utilizar nuestro sitio web, aceptas los
                     siguientes términos y condiciones. Por favor, léelos detenidamente.
                 </Typography>
 
@@ -37,7 +37,7 @@ const TerminosYCondicionesPage = () => {
                 </Typography>
                 <Typography variant="body1" paragraph>
                     Todos los derechos de propiedad intelectual sobre el contenido y diseño de este sitio web
-                    son propiedad de Defensa Madridista o de sus licenciantes.
+                    son propiedad de Dalidev Solutions o de sus licenciantes.
                 </Typography>
 
                 <Typography variant="h5" gutterBottom>
@@ -61,8 +61,8 @@ const TerminosYCondicionesPage = () => {
                 </Typography>
                 <Typography variant="body1" paragraph>
                     Si tienes preguntas sobre estos términos, contáctanos en{' '}
-                    <Link href="mailto:contacto@defensamadridista.com" color="primary">
-                        contacto@defensamadridista.com
+                    <Link href="mailto:contacto@dalidevsolutions.com" color="primary">
+                        contacto@dalidevsolutions.com
                     </Link>
                     .
                 </Typography>

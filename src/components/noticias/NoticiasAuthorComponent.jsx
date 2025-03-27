@@ -2,8 +2,8 @@ import { Box, Avatar, Typography, Stack } from '@mui/material';
 
 const NoticiasAuthorComponent = ({ lastUpdated }) => {
     const author = {
-        name: process.env.NEXT_PUBLIC_NAME || 'Defensa Madridista',
-        image: `${process.env.NEXT_PUBLIC_IMAGES}/logos/defensa-madridista-7.png?width=60`,
+        name: process.env.NEXT_PUBLIC_NAME || 'Dalidev Solutions',
+        image: `${process.env.NEXT_PUBLIC_IMAGES}/dalidev-solutions/banner_image_1.png?width=60`,
     };
 
     return (

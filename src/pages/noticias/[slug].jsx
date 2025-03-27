@@ -12,9 +12,9 @@ const defaultAuthor = {
             url: process.env.NEXT_PUBLIC_TWITTER,
         },
     ],
-    image: `${process.env.NEXT_PUBLIC_IMAGES}/logos/defensa-madridista-7.png`,
+    image: `${process.env.NEXT_PUBLIC_IMAGES}/dalidev-solutions/banner_image_1.png`,
     twitter: process.env.NEXT_PUBLIC_TWITTER,
-    bio: 'Creador y webmaster de Defensa Madridista, un blog de noticias y análisis del Real Madrid. Defendemos los colores del club blanco contra todo y contra todos.',
+    bio: 'Creador y webmaster de Dalidev Solutions, una empresa de desarrollo de software que ofrece soluciones personalizadas para satisfacer las necesidades de nuestros clientes.',
 };
 
 const NoticiaPage = ({ noticia, slug }) => {

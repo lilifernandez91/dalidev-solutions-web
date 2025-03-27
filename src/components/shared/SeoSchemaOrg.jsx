@@ -3,7 +3,7 @@ import React from 'react';
 import { PAGES } from '@/constants/rutas';
 import { SchemaOrgType } from '@/enums/SchemaOrgType';
 
-const license = 'https://defensamadridista.com/terminos-y-condiciones';
+const license = 'https://dalidevsolutions.com/terminos-y-condiciones';
 
 // Mapeo de tipos por página
 const schemaTypes = {
@@ -26,7 +26,7 @@ const buildSchema = (type, { title, url, description, image, additionalData }) =
         creator: {
             '@type': 'Organization',
             name: organization,
-            url: 'https://defensamadridista.com',
+            url: 'https://dalidevsolutions.com',
             logo: {
                 '@type': 'ImageObject',
                 url: image,
@@ -110,7 +110,7 @@ const buildSchema = (type, { title, url, description, image, additionalData }) =
                 organizer: {
                     '@type': 'Organization',
                     name: organization,
-                    url: 'https://defensamadridista.com',
+                    url: 'https://dalidevsolutions.com',
                 },
             };
 

@@ -51,7 +51,7 @@ export const lightTheme = createTheme({
     },
     typography: {
         allVariants: {
-            fontFamily: `'Roboto Condensed', sans-serif`,
+            fontFamily: `'Roboto', sans-serif`,
             textTransform: 'none',
             fontSize: 16,
         },

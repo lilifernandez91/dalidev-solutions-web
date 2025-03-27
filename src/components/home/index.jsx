@@ -1,45 +1,16 @@
-'use client';
+import { Box } from '@mui/material';
+import ButtonHomeComponent from './ButtonHomeComponent';
+import HeaderComponent from './HeaderComponent';
+import OurClientsComponent from './OurClientsComponent';
+import TextHomeComponent from './TextHomeComponent';
 
-import { Box, Typography } from '@mui/material';
-import Grid from '@mui/material/Grid2';
-import NewsCard from './NewsCard';
-
-const HomeComponent = ({ noticias }) => {
+const HomeComponent = () => {
     return (
-        <Box pt={2} className="container">
-            <Typography variant="h1" component="h1" sx={{ marginBottom: 1 }}>
-                Últimas noticias
-            </Typography>
-
-            <Typography variant="body1" component="p" sx={{ marginBottom: 2 }}>
-                Toda la actualidad del Real Madrid desde otra perspectiva, mezclamos análisis, opinión y
-                actualidad al ritmo de un enfoque diferente.
-            </Typography>
-
-            <Grid container spacing={2}>
-                {noticias?.map((news, index) => {
-                    let gridSize = 12;
-
-                    if (index === 0) gridSize = 12;
-                    else if (index <= 2) gridSize = 6;
-                    else if (index <= 4) gridSize = 6;
-                    else gridSize = 4;
-
-                    return (
-                        <Grid
-                            key={news.id}
-                            item="true"
-                            size={{
-                                xs: 12,
-                                sm: 6,
-                                md: gridSize,
-                            }}
-                        >
-                            <NewsCard news={news} />
-                        </Grid>
-                    );
-                })}
-            </Grid>
+        <Box sx={{ minHeight: 'calc(100vh - 235px)', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <HeaderComponent />
+            <ButtonHomeComponent />
+            <TextHomeComponent />
+            <OurClientsComponent />
         </Box>
     );
 };

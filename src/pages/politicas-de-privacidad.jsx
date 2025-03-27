@@ -20,7 +20,7 @@ const PoliticasDePrivacidadPage = () => {
                 </Typography>
 
                 <Typography variant="body1" paragraph>
-                    En Defensa Madridista, respetamos tu privacidad y nos comprometemos a proteger la
+                    En Dalidev Solutions, respetamos tu privacidad y nos comprometemos a proteger la
                     información personal que compartes con nosotros.
                 </Typography>
 
@@ -63,7 +63,7 @@ const PoliticasDePrivacidadPage = () => {
                 </Typography>
                 <Typography variant="body1" paragraph>
                     Si tienes preguntas sobre nuestra política de privacidad, puedes escribirnos a{' '}
-                    <a href="mailto:contacto@defensamadridista.com">{process.env.NEXT_PUBLIC_EMAIL}</a>.
+                    <a href="mailto:contacto@dalidevsolutions.com">{process.env.NEXT_PUBLIC_EMAIL}</a>.
                 </Typography>
 
                 <Typography variant="caption" display="block" align="center" sx={{ mt: 4 }}>

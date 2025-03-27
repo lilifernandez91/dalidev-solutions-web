@@ -17,16 +17,15 @@ import {
     Divider,
 } from '@mui/material';
 import { Menu as MenuIcon } from '@mui/icons-material';
-import { RUTAS } from '@/constants/rutas';
 import { Context } from '@/context';
 import { REDUCERS } from '@/constants/reducers';
-import LogoImage from './LogoImage';
+import { RUTAS } from '@/constants/rutas';
 
 const navItems = [
     { label: 'Inicio', path: RUTAS.INICIO },
     { label: 'Quiénes somos', path: RUTAS.QUIENES_SOMOS },
     { label: 'Nuestros servicios', path: RUTAS.SERVICIOS },
-    { label: 'Blog', path: RUTAS.NOTICIAS },
+    { label: 'Blog', path: RUTAS.BLOG },
     { label: 'Contacto', path: RUTAS.CONTACTO },
 ];
 
@@ -81,7 +80,7 @@ const Navigation = () => {
                     }}
                 >
                     <Link href={RUTAS.INICIO} style={{ display: 'flex', alignItems: 'center' }}>
-                        <LogoImage width={500} height={100} />
+                        Logo
                     </Link>
                 </Box>
 
@@ -92,8 +91,6 @@ const Navigation = () => {
                             <Typography
                                 sx={{
                                     color: '#FFF',
-                                    textDecoration: 'none',
-                                    '&:hover': { color: '#FFD700' },
                                     cursor: 'pointer',
                                 }}
                             >

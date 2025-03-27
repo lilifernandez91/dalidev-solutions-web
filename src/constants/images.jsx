@@ -1,4 +1,3 @@
 export const IMAGES = {
-    LOGO: '/images/logo-defensa-madridista.png',
-    REAL_MADRID: '/images/escudos/real-madrid.png',
+    LOGO: '/images/dalidev-solutions/banner_image_1.png',
 };

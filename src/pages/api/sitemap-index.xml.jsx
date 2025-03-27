@@ -13,14 +13,14 @@ export default function handler(req, res) {
     const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     ${staticSitemaps
-        .map(
-            (sitemap) => `
+            .map(
+                (sitemap) => `
     <sitemap>
-        <loc>https://defensamadridista.com${sitemap.loc}</loc>
+        <loc>https://dalidevsolutions.com${sitemap.loc}</loc>
         <lastmod>${sitemap.lastMod}</lastmod>
     </sitemap>`
-        )
-        .join('')}
+            )
+            .join('')}
 </sitemapindex>`;
 
     // 📤 Enviar respuesta
